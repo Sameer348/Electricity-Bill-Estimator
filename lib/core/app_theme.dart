@@ -12,10 +12,15 @@ class AppTheme {
   static ThemeData dark() => _build(Brightness.dark);
 
   static ThemeData _build(Brightness brightness) {
+    final isLight = brightness == Brightness.light;
+    // Amber tertiary family for notices; the seed alone would derive pink.
     final scheme = ColorScheme.fromSeed(
       seedColor: seed,
       brightness: brightness,
-      tertiary: brightness == Brightness.light ? const Color(0xFF8A5A00) : bolt,
+      tertiary: isLight ? const Color(0xFF8A5A00) : bolt,
+      onTertiary: isLight ? Colors.white : const Color(0xFF3D2A00),
+      tertiaryContainer: isLight ? const Color(0xFFFFEBC2) : const Color(0xFF4A3800),
+      onTertiaryContainer: isLight ? const Color(0xFF3D2A00) : const Color(0xFFFFE08A),
     );
     final radius = BorderRadius.circular(16);
     return ThemeData(

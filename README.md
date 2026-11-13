@@ -6,6 +6,16 @@ units consumed (kWh), using configurable tariff slabs, taxes and surcharges.
 > This is an **estimator**, not an official WAPDA/DISCO billing system. Rates
 > are estimates and may change.
 
+## Screenshots
+
+| Home | Bill result | Appliances |
+|:---:|:---:|:---:|
+| <img src="docs/screenshots/home.png" width="240" alt="Home screen with units input and recent calculations"> | <img src="docs/screenshots/result.png" width="240" alt="Bill result with slab breakdown"> | <img src="docs/screenshots/appliances.png" width="240" alt="Appliance calculator"> |
+
+| History | Settings | Urdu (RTL) | Dark mode |
+|:---:|:---:|:---:|:---:|
+| <img src="docs/screenshots/history.png" width="180" alt="History screen"> | <img src="docs/screenshots/settings.png" width="180" alt="Settings screen"> | <img src="docs/screenshots/urdu.png" width="180" alt="Settings in Urdu, right-to-left"> | <img src="docs/screenshots/dark.png" width="180" alt="Home screen in dark mode"> |
+
 ## Features
 
 - Bill calculator for residential and commercial connections, with input validation
