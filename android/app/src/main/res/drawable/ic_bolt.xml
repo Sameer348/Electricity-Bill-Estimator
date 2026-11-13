@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lightning bolt used for the adaptive icon foreground and splash screen. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/bolt_amber"
+        android:pathData="M59,22 L34,60 H52 L47,86 L74,46 H56 Z" />
+</vector>
